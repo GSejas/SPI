@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml TestePantalla.twx TestePantalla.ncd -o TestePantalla.twr
+TestePantalla.pcf
+
+Design file:              TestePantalla.ncd
+Physical constraint file: TestePantalla.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+RST         |    1.969(R)|   -0.275(R)|CLK_BUFGP         |   0.000|
+            |    4.283(F)|   -0.275(F)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Botones<0>  |    7.749(R)|CLK_BUFGP         |   0.000|
+Botones<1>  |    8.599(R)|CLK_BUFGP         |   0.000|
+Botones<2>  |    8.264(R)|CLK_BUFGP         |   0.000|
+DatoRec<0>  |    7.847(F)|CLK_BUFGP         |   0.000|
+DatoRec<1>  |    7.878(F)|CLK_BUFGP         |   0.000|
+DatoRec<2>  |    7.255(F)|CLK_BUFGP         |   0.000|
+DatoRec<3>  |    7.776(F)|CLK_BUFGP         |   0.000|
+DatoRec<4>  |    7.595(F)|CLK_BUFGP         |   0.000|
+DatoRec<5>  |    7.772(F)|CLK_BUFGP         |   0.000|
+DatoRec<6>  |    7.603(F)|CLK_BUFGP         |   0.000|
+DatoRec<7>  |    8.054(F)|CLK_BUFGP         |   0.000|
+FAIL        |    8.757(R)|CLK_BUFGP         |   0.000|
+PS2CLK      |   12.891(R)|CLK_BUFGP         |   0.000|
+            |   10.588(F)|CLK_BUFGP         |   0.000|
+PS2DATA     |   12.507(R)|CLK_BUFGP         |   0.000|
+            |   10.267(F)|CLK_BUFGP         |   0.000|
+STREAM      |    8.499(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<0>|    7.465(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<1>|    8.352(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<2>|    8.474(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<3>|    7.491(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<4>|    8.014(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<5>|    7.993(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<6>|    7.724(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<7>|    7.726(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<8>|    8.057(R)|CLK_BUFGP         |   0.000|
+XMouseVGA<9>|    7.976(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<0>|    8.101(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<1>|    8.634(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<2>|    8.269(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<3>|    8.019(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<4>|    7.741(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<5>|    7.818(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<6>|    8.105(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<7>|    7.749(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<8>|    8.002(R)|CLK_BUFGP         |   0.000|
+YMouseVGA<9>|    7.733(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    7.374|    5.406|    5.630|    8.168|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Mar 29 18:33:07 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 167 MB
+
+
+

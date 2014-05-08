@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\GSeJas-Desktop\Dropbox\Lab digitales\New\ControladorPS2\SemaforoDePrueba.ncd
+OUTFILE=C:\Users\GSeJas-Desktop\Dropbox\Lab digitales\New\ControladorPS2\SemaforoDePrueba.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\GSeJas-Desktop\Dropbox\Lab digitales\New\ControladorPS2
+LICENSE=ISE
+USER_INFO=210771323_0_0_725

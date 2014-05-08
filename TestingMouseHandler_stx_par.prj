@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/par/MouseHandler_timesim.v"
+verilog isim_temp "TestingMouseHandler.v"

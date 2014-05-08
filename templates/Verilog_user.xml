@@ -1,0 +1,65 @@
+<Folder label="User Templates" language="Verilog" treetype="folder" usernode="true">
+	<SubFolder label="FSM" treetype="folder" usernode="true">
+    <Template label="FSM" treetype="template" usernode="true">parameter[1:0] 
+
+	S0 = 2'b00,
+	S1 = 2'b01,
+	S2 = 2'b10,
+	S3 = 2'b11;
+//Parametros locales utilizados para no tener que usar siempre la notacion binaria, y que
+//y para permiti
+reg [1:0] E_Presente, E_Siguiente;
+
+//Combinacional de Salida
+assign ENA = (E_Presente == S2);
+assign SET = (E_Presente == S1);
+assign FIN = (E_Presente == S3);
+
+//Logica de la Maquina
+always @(posedge clk, posedge reset)
+	
+	if (reset)
+		E_Presente &lt;= S0;
+	else
+		E_Presente &lt;= E_Siguiente;
+
+
+//Diagrama de Estados, descrito
+always @*
+	begin
+		case (E_Presente)
+			////////////////////////////////
+			S0: begin
+				if (INICIO)
+					E_Siguiente &lt;= S1;
+				else
+					E_Siguiente &lt;= S0;
+				end
+			////////////////////////////////
+			S1: begin	
+					E_Siguiente &lt;= S2;
+				end
+			/////////////////////////////////
+			S2: begin
+					if (Z)
+						E_Siguiente &lt;= S3;
+					else
+						E_Siguiente &lt;= S2;
+				  end
+			/////////////////////////////////
+			S3: begin
+			
+					E_Siguiente &lt;= S0;
+
+				end
+		endcase
+	end
+
+
+
+
+endmodule
+</Template>
+  </SubFolder>
+
+</Folder>

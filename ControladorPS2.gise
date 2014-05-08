@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ControladorPS2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FSMContador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FSMContador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FSMContador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FSMContador.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSMContador.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FSMContador.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FSMContador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FSMContador.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FSMContador_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FSMContador_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MouseHandler.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MouseHandler.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="MouseHandler.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="MouseHandler.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MouseHandler.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MouseHandler.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MouseHandler.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MouseHandler.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MouseHandler_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MouseHandler_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MouseHandler_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PS2_Tx.ngr"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PruebaTipografia_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PruebaTipografia_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PruebaTipografia_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Recibimiento_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestePantallaUUT_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestePantallaUUT_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestingGeneradorPosiciones_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestingMouseHandler_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/MouseHandler_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/MouseHandler_synthesis.v"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1396156859" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1396156859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1396200314" xil_pn:in_ck="-7384804692770930659" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1396200314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Buffer1bit.v"/>
+      <outfile xil_pn:name="CDescent.v"/>
+      <outfile xil_pn:name="ContSegund.v"/>
+      <outfile xil_pn:name="Contador100us.v"/>
+      <outfile xil_pn:name="Contador100us2.v"/>
+      <outfile xil_pn:name="Contador4bits.v"/>
+      <outfile xil_pn:name="ContadorDown10EnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown11EnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown50uEnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown50uEnaDown2.v"/>
+      <outfile xil_pn:name="ContadorFSM.v"/>
+      <outfile xil_pn:name="ControlPS2Replica.v"/>
+      <outfile xil_pn:name="Counter10bits.v"/>
+      <outfile xil_pn:name="Counter_HReal.v"/>
+      <outfile xil_pn:name="CuentaBitsEnvio.v"/>
+      <outfile xil_pn:name="DecoMouse.v"/>
+      <outfile xil_pn:name="FFD.v"/>
+      <outfile xil_pn:name="FFJK.v"/>
+      <outfile xil_pn:name="FFT.v"/>
+      <outfile xil_pn:name="FSMContador.v"/>
+      <outfile xil_pn:name="FSMPS2MOUSE.v"/>
+      <outfile xil_pn:name="FSMPS2MOUSE2.v"/>
+      <outfile xil_pn:name="FSMSemaforo.v"/>
+      <outfile xil_pn:name="FSM_rx_ps2.v"/>
+      <outfile xil_pn:name="FSM_tx_ps2.v"/>
+      <outfile xil_pn:name="FiltroRuido8bits.v"/>
+      <outfile xil_pn:name="FontMemTest.v"/>
+      <outfile xil_pn:name="FontRomNum16x16.v"/>
+      <outfile xil_pn:name="MouseH.v"/>
+      <outfile xil_pn:name="MouseHandler.v"/>
+      <outfile xil_pn:name="MouseReciibe.v"/>
+      <outfile xil_pn:name="MouseTransmite.v"/>
+      <outfile xil_pn:name="MouseTransmiteConKermitUTT.v"/>
+      <outfile xil_pn:name="Mux16x1.v"/>
+      <outfile xil_pn:name="NewFSM_rx_ps2.v"/>
+      <outfile xil_pn:name="NumerosTiempo.v"/>
+      <outfile xil_pn:name="ObjetosTipografiaNoIcono.v"/>
+      <outfile xil_pn:name="PRUEBA.v"/>
+      <outfile xil_pn:name="PRUEBA2.v"/>
+      <outfile xil_pn:name="PS2MOUSE.v"/>
+      <outfile xil_pn:name="PS2_Tx.v"/>
+      <outfile xil_pn:name="Pantalla.v"/>
+      <outfile xil_pn:name="Pantalla2.v"/>
+      <outfile xil_pn:name="PosicionCursor.v"/>
+      <outfile xil_pn:name="PrioridadDeObjetos.v"/>
+      <outfile xil_pn:name="PruebaContaFlancos.v"/>
+      <outfile xil_pn:name="PruebaDetectordeFlanco.v"/>
+      <outfile xil_pn:name="PruebaFSMTx.v"/>
+      <outfile xil_pn:name="PruebaMouse1.v"/>
+      <outfile xil_pn:name="PruebaReg8nots.v"/>
+      <outfile xil_pn:name="PruebaSemaforo.v"/>
+      <outfile xil_pn:name="PruebaTipografia.v"/>
+      <outfile xil_pn:name="PruebaV2PruebaPyurbePrueba.v"/>
+      <outfile xil_pn:name="ROMCONT.v"/>
+      <outfile xil_pn:name="RecepcionPrueba.v"/>
+      <outfile xil_pn:name="Recibimiento.v"/>
+      <outfile xil_pn:name="RecibimientoV2.v"/>
+      <outfile xil_pn:name="Reg10bits.v"/>
+      <outfile xil_pn:name="Reg10bitsDespRightEnaDown.v"/>
+      <outfile xil_pn:name="Reg11bitsDespRightEnaDown.v"/>
+      <outfile xil_pn:name="Reg1bitTogRstSet.v"/>
+      <outfile xil_pn:name="Reg3bits.v"/>
+      <outfile xil_pn:name="Reg5bits.v"/>
+      <outfile xil_pn:name="Reg8bits.v"/>
+      <outfile xil_pn:name="RegistrosTemporalesMouse.v"/>
+      <outfile xil_pn:name="RxRxRx.v"/>
+      <outfile xil_pn:name="SemaforoDePrueba.v"/>
+      <outfile xil_pn:name="SemaforoGrande.v"/>
+      <outfile xil_pn:name="SemaforoVGA7Seg.v"/>
+      <outfile xil_pn:name="SevenSegmentos.v"/>
+      <outfile xil_pn:name="ShiftRightReg.v"/>
+      <outfile xil_pn:name="Subber.v"/>
+      <outfile xil_pn:name="TestMouseKervino.v"/>
+      <outfile xil_pn:name="TestePantalla.v"/>
+      <outfile xil_pn:name="TestePantallaUUT.v"/>
+      <outfile xil_pn:name="TestingGeneradorPosiciones.v"/>
+      <outfile xil_pn:name="TestingMouseHandler.v"/>
+      <outfile xil_pn:name="TestingObjtPantalla.v"/>
+      <outfile xil_pn:name="TestingTestie.v"/>
+      <outfile xil_pn:name="TransmisionPrueba.v"/>
+      <outfile xil_pn:name="Up_Counte_11bits.v"/>
+      <outfile xil_pn:name="Up_Counte_11bitsNegEdge.v"/>
+      <outfile xil_pn:name="VGA_Controller.v"/>
+      <outfile xil_pn:name="cscasc.v"/>
+      <outfile xil_pn:name="ps2_controller.v"/>
+      <outfile xil_pn:name="suma.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291169" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4621077541712770180" xil_pn:start_ts="1396291169">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291169" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6524385348686510782" xil_pn:start_ts="1396291169">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1396156859" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7279340621756114138" xil_pn:start_ts="1396156859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1396200314" xil_pn:in_ck="-7384804692770930659" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1396200314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Buffer1bit.v"/>
+      <outfile xil_pn:name="CDescent.v"/>
+      <outfile xil_pn:name="ContSegund.v"/>
+      <outfile xil_pn:name="Contador100us.v"/>
+      <outfile xil_pn:name="Contador100us2.v"/>
+      <outfile xil_pn:name="Contador4bits.v"/>
+      <outfile xil_pn:name="ContadorDown10EnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown11EnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown50uEnaDown.v"/>
+      <outfile xil_pn:name="ContadorDown50uEnaDown2.v"/>
+      <outfile xil_pn:name="ContadorFSM.v"/>
+      <outfile xil_pn:name="ControlPS2Replica.v"/>
+      <outfile xil_pn:name="Counter10bits.v"/>
+      <outfile xil_pn:name="Counter_HReal.v"/>
+      <outfile xil_pn:name="CuentaBitsEnvio.v"/>
+      <outfile xil_pn:name="DecoMouse.v"/>
+      <outfile xil_pn:name="FFD.v"/>
+      <outfile xil_pn:name="FFJK.v"/>
+      <outfile xil_pn:name="FFT.v"/>
+      <outfile xil_pn:name="FSMContador.v"/>
+      <outfile xil_pn:name="FSMPS2MOUSE.v"/>
+      <outfile xil_pn:name="FSMPS2MOUSE2.v"/>
+      <outfile xil_pn:name="FSMSemaforo.v"/>
+      <outfile xil_pn:name="FSM_rx_ps2.v"/>
+      <outfile xil_pn:name="FSM_tx_ps2.v"/>
+      <outfile xil_pn:name="FiltroRuido8bits.v"/>
+      <outfile xil_pn:name="FontMemTest.v"/>
+      <outfile xil_pn:name="FontRomNum16x16.v"/>
+      <outfile xil_pn:name="MouseH.v"/>
+      <outfile xil_pn:name="MouseHandler.v"/>
+      <outfile xil_pn:name="MouseReciibe.v"/>
+      <outfile xil_pn:name="MouseTransmite.v"/>
+      <outfile xil_pn:name="MouseTransmiteConKermitUTT.v"/>
+      <outfile xil_pn:name="Mux16x1.v"/>
+      <outfile xil_pn:name="NewFSM_rx_ps2.v"/>
+      <outfile xil_pn:name="NumerosTiempo.v"/>
+      <outfile xil_pn:name="ObjetosTipografiaNoIcono.v"/>
+      <outfile xil_pn:name="PRUEBA.v"/>
+      <outfile xil_pn:name="PRUEBA2.v"/>
+      <outfile xil_pn:name="PS2MOUSE.v"/>
+      <outfile xil_pn:name="PS2_Tx.v"/>
+      <outfile xil_pn:name="Pantalla.v"/>
+      <outfile xil_pn:name="Pantalla2.v"/>
+      <outfile xil_pn:name="PosicionCursor.v"/>
+      <outfile xil_pn:name="PrioridadDeObjetos.v"/>
+      <outfile xil_pn:name="PruebaContaFlancos.v"/>
+      <outfile xil_pn:name="PruebaDetectordeFlanco.v"/>
+      <outfile xil_pn:name="PruebaFSMTx.v"/>
+      <outfile xil_pn:name="PruebaMouse1.v"/>
+      <outfile xil_pn:name="PruebaReg8nots.v"/>
+      <outfile xil_pn:name="PruebaSemaforo.v"/>
+      <outfile xil_pn:name="PruebaTipografia.v"/>
+      <outfile xil_pn:name="PruebaV2PruebaPyurbePrueba.v"/>
+      <outfile xil_pn:name="ROMCONT.v"/>
+      <outfile xil_pn:name="RecepcionPrueba.v"/>
+      <outfile xil_pn:name="Recibimiento.v"/>
+      <outfile xil_pn:name="RecibimientoV2.v"/>
+      <outfile xil_pn:name="Reg10bits.v"/>
+      <outfile xil_pn:name="Reg10bitsDespRightEnaDown.v"/>
+      <outfile xil_pn:name="Reg11bitsDespRightEnaDown.v"/>
+      <outfile xil_pn:name="Reg1bitTogRstSet.v"/>
+      <outfile xil_pn:name="Reg3bits.v"/>
+      <outfile xil_pn:name="Reg5bits.v"/>
+      <outfile xil_pn:name="Reg8bits.v"/>
+      <outfile xil_pn:name="RegistrosTemporalesMouse.v"/>
+      <outfile xil_pn:name="RxRxRx.v"/>
+      <outfile xil_pn:name="SemaforoDePrueba.v"/>
+      <outfile xil_pn:name="SemaforoGrande.v"/>
+      <outfile xil_pn:name="SemaforoVGA7Seg.v"/>
+      <outfile xil_pn:name="SevenSegmentos.v"/>
+      <outfile xil_pn:name="ShiftRightReg.v"/>
+      <outfile xil_pn:name="Subber.v"/>
+      <outfile xil_pn:name="TestMouseKervino.v"/>
+      <outfile xil_pn:name="TestePantalla.v"/>
+      <outfile xil_pn:name="TestePantallaUUT.v"/>
+      <outfile xil_pn:name="TestingGeneradorPosiciones.v"/>
+      <outfile xil_pn:name="TestingMouseHandler.v"/>
+      <outfile xil_pn:name="TestingObjtPantalla.v"/>
+      <outfile xil_pn:name="TestingTestie.v"/>
+      <outfile xil_pn:name="TransmisionPrueba.v"/>
+      <outfile xil_pn:name="Up_Counte_11bits.v"/>
+      <outfile xil_pn:name="Up_Counte_11bitsNegEdge.v"/>
+      <outfile xil_pn:name="VGA_Controller.v"/>
+      <outfile xil_pn:name="cscasc.v"/>
+      <outfile xil_pn:name="ps2_controller.v"/>
+      <outfile xil_pn:name="suma.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291173" xil_pn:in_ck="-7384804692770930659" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3260622790448277145" xil_pn:start_ts="1396291169">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PruebaTipografia_beh.prj"/>
+      <outfile xil_pn:name="PruebaTipografia_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291173" xil_pn:in_ck="6261705392507931984" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1566673510339992900" xil_pn:start_ts="1396291173">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PruebaTipografia_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291923" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1396291923">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3836420068767065081" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1810788804671277345" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2878245097548856311" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518911" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7754450353197748311" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399518919" xil_pn:in_ck="4867909099392032812" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4238859840665298891" xil_pn:start_ts="1399518911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FSMContador.lso"/>
+      <outfile xil_pn:name="FSMContador.ngc"/>
+      <outfile xil_pn:name="FSMContador.ngr"/>
+      <outfile xil_pn:name="FSMContador.prj"/>
+      <outfile xil_pn:name="FSMContador.stx"/>
+      <outfile xil_pn:name="FSMContador.syr"/>
+      <outfile xil_pn:name="FSMContador.xst"/>
+      <outfile xil_pn:name="FSMContador_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1396291936" xil_pn:in_ck="-8117580327375558726" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-9042923033602277975" xil_pn:start_ts="1396291936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+  </transforms>
+
+</generated_project>

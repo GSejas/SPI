@@ -1,0 +1,5 @@
+verilog work "Mux16x1.v"
+verilog work "FontRomNum16x16.v"
+verilog work "NumerosTiempo.v"
+verilog work "PruebaTipografia.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

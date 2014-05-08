@@ -1,0 +1,28 @@
+Command line:
+   PruebaTipografia_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59330
+
+Mon Mar 31 12:39:36 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 666.89 Meg
+
+ Total Signals          : 31
+ Total Nets             : 69
+ Total Signal Drivers   : 18
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 22
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 4272
+
+ Total Simulation Time: 0.1716 sec
+
+ Current Memory Usage: 666.89 Meg
+
+Mon Mar 31 12:39:56 2014
+

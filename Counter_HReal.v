@@ -1,0 +1,12 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////
+module Counter_HReal(clk,rst1,rst2,cuenta,enable,sal);
+input clk, rst1, rst2,enable;
+output [9:0] cuenta;
+
+output sal;
+FFT FT(clk, enable,rst2,sal);
+Counter10bits CC(clk,rst1,rst2,cuenta, sal);
+endmodule

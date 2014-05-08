@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ControladorPS2" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ControlPS2Replica C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|ControlPS2Replica.v</ClosedNode>
+         <ClosedNode>/ControlPS2Replica C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|ControlPS2Replica.v/Envio - PS2_Tx</ClosedNode>
+         <ClosedNode>/ControlPS2Replica C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|ControlPS2Replica.v/FSMBLABLA - RxRxRx</ClosedNode>
+         <ClosedNode>/DecoMouse C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|DecoMouse.v</ClosedNode>
+         <ClosedNode>/MouseHandler C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseHandler.v</ClosedNode>
+         <ClosedNode>/MouseHandler C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseHandler.v/PosCursor - PosicionCursor</ClosedNode>
+         <ClosedNode>/MouseHandler C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseHandler.v/RegTemp - RegistrosTemporalesMouse</ClosedNode>
+         <ClosedNode>/MouseReciibe C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseReciibe.v</ClosedNode>
+         <ClosedNode>/MouseReciibe C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseReciibe.v/CM - RecepcionPrueba</ClosedNode>
+         <ClosedNode>/MouseReciibe C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseReciibe.v/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/MouseTransmite C:|Dropbox|Lab digitales|New|ControladorPS2|MouseTransmite.v</ClosedNode>
+         <ClosedNode>/MouseTransmite C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseTransmite.v</ClosedNode>
+         <ClosedNode>/MouseTransmite C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseTransmite.v/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/NumerosTiempo C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|NumerosTiempo.v</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v/CM - ps2_controller</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v/CM - ps2_controller/Envio - PS2_Tx</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v/MM - PS2MOUSE/FSMENV - FSMPS2MOUSE2</ClosedNode>
+         <ClosedNode>/PRUEBA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA.v/MM - PS2MOUSE/FSMREC - FSMPS2MOUSE</ClosedNode>
+         <ClosedNode>/PRUEBA2 C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA2.v/CM - ControlPS2Replica/FSMBLABLA - RxRxRx</ClosedNode>
+         <ClosedNode>/PRUEBA2 C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PRUEBA2.v/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/Pantalla C:|Dropbox|Lab digitales|New|ControladorPS2|Pantalla2.v</ClosedNode>
+         <ClosedNode>/Pantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|Pantalla2.v</ClosedNode>
+         <ClosedNode>/PosicionCursor C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PosicionCursor.v</ClosedNode>
+         <ClosedNode>/PruebaMouseFGA C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaMouse.v</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v/uut - PRUEBA2</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v/uut - PRUEBA2/CM - ControlPS2Replica/Envio - PS2_Tx</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v/uut - PRUEBA2/CM - ControlPS2Replica/FSMBLABLA - RxRxRx</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v/uut - PRUEBA2/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/RecepcionPrueba C:|Dropbox|Lab digitales|New|ControladorPS2|RecepcionPrueba.v</ClosedNode>
+         <ClosedNode>/RegistrosTemporalesMouse C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|RegistrosTemporalesMouse.v</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/LightBox - SemaforoGrande/ContadorTodo - ContadorFSM</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/CM - MouseHandler</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/Semaforos - ObjetosTipografiaNoIcono</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/Semaforos - ObjetosTipografiaNoIcono/Numeros - NumerosTiempo</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/Semaforos - PrioridadDeObjetos</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/VGAC - VGA_Controller</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1/VGAC - VGA_Controller/Counter_H - Counter_HReal</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/Semaforos - ObjetosTipografiaNoIcono</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/VGAC - VGA_Controller</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/LightBox - SemaforoGrande</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/CM - MouseHandler</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/CM - MouseHandler/Control - ControlPS2Replica</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/CM - MouseHandler/PosCursor - PosicionCursor</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/CM - MouseHandler/RegTemp - RegistrosTemporalesMouse</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/Semaforos - ObjetosTipografiaNoIcono</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/Semaforos - PrioridadDeObjetos</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/Semaforos - PrioridadDeObjetos/DM - DecoMouse</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1/VGAC - VGA_Controller</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler/Control - ControlPS2Replica</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler/Control - ControlPS2Replica/Envio - PS2_Tx</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler/Control - ControlPS2Replica/FSMBLABLA - RxRxRx</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler/PosCursor - PosicionCursor</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/CM - MouseHandler/RegTemp - RegistrosTemporalesMouse</ClosedNode>
+         <ClosedNode>/TestePantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantalla.v/MM - PS2MOUSE</ClosedNode>
+         <ClosedNode>/TestingGeneradorPosiciones C:|Dropbox|Lab digitales|New|ControladorPS2|TestingGeneradorPosiciones.v</ClosedNode>
+         <ClosedNode>/TestingGeneradorPosiciones C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingGeneradorPosiciones.v</ClosedNode>
+         <ClosedNode>/TestingGeneradorPosiciones C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingGeneradorPosiciones.v/uut - VGA_Controller</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v/uut - PrioridadDeObjetos</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v/uut - PrioridadDeObjetos/DM - DecoMouse</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v/uut - PrioridadDeObjetos/Numeros - NumerosTiempo</ClosedNode>
+         <ClosedNode>/cscasc C:|Dropbox|Lab digitales|New|ControladorPS2|cscasc.v</ClosedNode>
+         <ClosedNode>/cscasc C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|cscasc.v/uut - SemaforoGrande</ClosedNode>
+         <ClosedNode>/ps2_controller C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|ps2_controller.v</ClosedNode>
+         <ClosedNode>/ps2_controller C:|Users|GSeJas-Desktop|Dropbox|New|ControladorPS2|ps2_controller.v/Envio - PS2_Tx</ClosedNode>
+         <ClosedNode>/ps2_controller C:|Users|GSeJas-Desktop|Dropbox|New|ControladorPS2|ps2_controller.v/PS2_Tx - PS2_Tx</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>FSMC - FSMContador (C:/Dropbox/Lab digitales/New/ControladorPS2/FSMContador.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001dd000000020000000000000000000000000200000064ffffffff000000810000000300000002000001dd0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>FSMC - FSMContador (C:/Dropbox/Lab digitales/New/ControladorPS2/FSMContador.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001860000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Contador100us.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/EnvioUnderTestTest C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|EnvioUnderTestTest.v</ClosedNode>
+         <ClosedNode>/FSMPS2MOUSE C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|FSMPS2MOUSE.v</ClosedNode>
+         <ClosedNode>/FSMPS2MOUSE2 C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|FSMPS2MOUSE2.v</ClosedNode>
+         <ClosedNode>/MouseTransmiteConKermitUTT C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|MouseTransmiteConKermitUTT.v</ClosedNode>
+         <ClosedNode>/Pantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|Pantalla2.v</ClosedNode>
+         <ClosedNode>/PruebaContaFlancos C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaContaFlancos.v</ClosedNode>
+         <ClosedNode>/PruebaDetectordeFlanco C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaDetectordeFlanco.v</ClosedNode>
+         <ClosedNode>/PruebaFSMTx C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaFSMTx.v/uut - FSM_tx_ps2</ClosedNode>
+         <ClosedNode>/PruebaMouse1 C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaMouse1.v/uut - ps2_controller</ClosedNode>
+         <ClosedNode>/PruebaSemaforo C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaSemaforo.v/uut - SemaforoGrande</ClosedNode>
+         <ClosedNode>/PruebaTipografia C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaTipografia.v/uut - NumerosTiempo</ClosedNode>
+         <ClosedNode>/PruebaV2PruebaPyurbePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|PruebaV2PruebaPyurbePrueba.v</ClosedNode>
+         <ClosedNode>/RecepcionPrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|RecepcionPrueba.v</ClosedNode>
+         <ClosedNode>/Recibimiento C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|Recibimiento.v</ClosedNode>
+         <ClosedNode>/RecibimientoV2 C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|RecibimientoV2.v</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/LightBox - SemaforoGrande</ClosedNode>
+         <ClosedNode>/SemaforoDePrueba C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoDePrueba.v/VGA - Pantalla1</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/LightBox - SemaforoGrande</ClosedNode>
+         <ClosedNode>/SemaforoVGA7Seg C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|SemaforoVGA7Seg.v/VGA - Pantalla1</ClosedNode>
+         <ClosedNode>/TestMouseKervino C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestMouseKervino.v/uut - PS2MOUSE</ClosedNode>
+         <ClosedNode>/TestePantallaUUT C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestePantallaUUT.v/uut - TestePantalla</ClosedNode>
+         <ClosedNode>/TestingGeneradorPosiciones C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingGeneradorPosiciones.v/uut - VGA_Controller</ClosedNode>
+         <ClosedNode>/TestingMouseHandler C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingMouseHandler.v/uut - MouseHandler</ClosedNode>
+         <ClosedNode>/TestingObjtPantalla C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingObjtPantalla.v/uut - PrioridadDeObjetos</ClosedNode>
+         <ClosedNode>/TestingTestie C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|TestingTestie.v/uut - PRUEBA</ClosedNode>
+         <ClosedNode>/cscasc C:|Users|GSeJas-Desktop|Dropbox|Lab digitales|New|ControladorPS2|cscasc.v/uut - SemaforoGrande</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - SemaforoGrande (C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoGrande.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - SemaforoGrande (C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoGrande.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ControladorPS2" >
+   <!--This is an ISE project configuration file.-->
+</Project>

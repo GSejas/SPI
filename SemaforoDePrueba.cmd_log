@@ -1,0 +1,73 @@
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 
+xst -intstyle ise -ifn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.xst" -ofn "C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/SemaforoDePrueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SemaforoPrueba.ucf -p xc3s500e-fg320-4 "SemaforoDePrueba.ngc" SemaforoDePrueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SemaforoDePrueba_map.ncd SemaforoDePrueba.ngd SemaforoDePrueba.pcf 
+par -w -intstyle ise -ol high -t 1 SemaforoDePrueba_map.ncd SemaforoDePrueba.ncd SemaforoDePrueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SemaforoDePrueba.twx SemaforoDePrueba.ncd -o SemaforoDePrueba.twr SemaforoDePrueba.pcf -ucf SemaforoPrueba.ucf 
+bitgen -intstyle ise -f SemaforoDePrueba.ut SemaforoDePrueba.ncd 

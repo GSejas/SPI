@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Dropbox/Lab digitales/New/ControladorPS2/FSMContador.xst" -ofn "C:/Dropbox/Lab digitales/New/ControladorPS2/FSMContador.syr" 

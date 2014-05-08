@@ -1,0 +1,4 @@
+verilog work "Contador100us2.v"
+verilog work "FSM_tx_ps2.v"
+verilog work "Contador100us.v"
+verilog work "PS2_Tx.v"

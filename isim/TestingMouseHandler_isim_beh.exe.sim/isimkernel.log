@@ -1,0 +1,28 @@
+Command line:
+   TestingMouseHandler_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59227
+
+Mon Mar 31 12:36:58 2014
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 666.907 Meg
+
+ Total Signals          : 184
+ Total Nets             : 168
+ Total Signal Drivers   : 50
+ Total Blocks           : 25
+ Total Primitive Blocks : 17
+ Total Processes        : 70
+ Total Traceable Variables  : 58
+ Total Scalar Nets and Variables : 475
+
+ Total Simulation Time: 12.9325 sec
+
+ Current Memory Usage: 981.479 Meg
+
+Mon Mar 31 12:37:33 2014
+

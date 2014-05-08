@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 27 21:19:17 2014
+# Process ID: 4956
+# Log file: C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/GSeJas-Desktop/Dropbox/Lab digitales/New/ControladorPS2/pa.fromNetlist.tcl}

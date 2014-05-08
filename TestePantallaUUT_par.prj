@@ -1,0 +1,2 @@
+verilog work "netgen/par/TestePantalla_timesim.v"
+verilog work "TestePantallaUUT.v"

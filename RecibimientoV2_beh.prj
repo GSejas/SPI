@@ -1,0 +1,5 @@
+verilog work "ShiftRightReg.v"
+verilog work "NewFSM_rx_ps2.v"
+verilog work "RxRxRx.v"
+verilog work "RecibimientoV2.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
